@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="main">
+      <div class="logo">
+        <img src="img/logo.png.jpeg">
+      </div>
+      <ul>
+        <li class="active"><a href="login.html">Login</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+   
+  
+    </div>
+  </header>
+   <div class="login-box">
+   <img src="https://img.icons8.com/ios/50/1c8adb/user-male-circle-filled.png" class="avatar">
+   <h1>Login Here</h1>
+       <form>
+        <p>Username</p>
+        <input id="email_txt" type="text" name="Username" placeholder="Enter Username">
+        <p>Password</p>
+        <input id="password_txt" type="password" name="password" placeholder="Enter Password">
+       </form>
+          <button id="login_btn" style="width: 150px;height: 20px; color:#1c8adb; text-align: center;">Login</button>
+  
+    <form>      
+    <a href="#">Forget Password?</a><br>
+    <a href="#">Don't have an account?</a><br>
+    <a href="signUp.html"style="color:yellow">Sign Up</a><br> 
+    <a href="index.html">Go back to Home page</a><br>
+    </form>
+       
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-auth.js"></script>
+    <script src="js/auth.js" ></script>
+</body>
+</html>
